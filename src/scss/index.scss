@@ -1,0 +1,40 @@
+@import "~/node_modules/bootstrap/scss/bootstrap.scss";
+
+.image-background {
+    height: 300px;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.image-text-overlay{
+    color: black;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.background-gradient {
+    background: #ffffff;
+    background: -moz-linear-gradient(left, #ffffff 0%, #ffffff 29%, #dddddd 99%);
+    background: -webkit-linear-gradient(left, #ffffff 0%, #ffffff 29%, #dddddd 99%);
+    background: linear-gradient(to right, #ffffff 0%, #ffffff 29%, #dddddd 99%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#dddddd', GradientType=1);
+}
+
+.question-header {
+    color: rgb(255, 255, 255);
+    line-height: 1.1em;
+    font-size: 20px;
+    // background: rgb(0, 130, 150);
+    background: #d92429;
+    padding: 10px;
+    border-bottom: none;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.image-hover:hover{
+    cursor: pointer;
+    opacity: .6;
+}
