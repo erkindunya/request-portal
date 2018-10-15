@@ -3,7 +3,7 @@
 .image-background {
     height: 300px;
     width: 100%;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -37,4 +37,9 @@
 .image-hover:hover{
     cursor: pointer;
     opacity: .6;
+}
+
+.pre-fade{
+    opacity: 0;
+    transition: 1s;
 }
